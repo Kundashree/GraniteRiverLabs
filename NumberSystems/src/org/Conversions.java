@@ -1,0 +1,20 @@
+package org;
+
+public class Conversions {
+
+	public static void main(String[] args) {
+		
+		String n = "555";
+		
+		int decimal = Integer.parseInt(n, 8);
+		System.out.println("octal to decimal "+ n + "->" + decimal );
+		
+		String octToDec = Integer.toString( Integer.parseInt(n, 8), 10);
+		System.out.println("OctToDec: "+ octToDec);
+		String octToHex = Integer.toString( Integer.parseInt(n, 8), 16);
+		System.out.println("OctToHex: " + octToHex);
+		
+
+	}
+
+}

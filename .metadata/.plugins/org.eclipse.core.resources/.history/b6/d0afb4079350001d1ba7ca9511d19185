@@ -1,0 +1,12 @@
+package org;
+
+public class Conversions {
+
+	public static void main(String[] args) {
+		
+		
+		int decimal = Integer.parseInt("11", 8);
+
+	}
+
+}

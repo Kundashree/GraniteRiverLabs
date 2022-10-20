@@ -1,0 +1,14 @@
+package org;
+
+public class Conversions {
+
+	public static void main(String[] args) {
+		
+		String n = "11";
+		int decimal = Integer.parseInt(n, 8);
+		System.out.println("octal to decimal "+ n + "->" + decimal );
+		
+
+	}
+
+}
